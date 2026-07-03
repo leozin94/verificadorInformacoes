@@ -33,14 +33,13 @@ section{
 }
 
 .cartao{
-
-width: 260px;
-height: 200px;
+    margin: 20px;
+    width: 260px;
+    height: 200px;
 }
 
 .cartao-imagem{
-
-width: 100%;
+    width: 100%;
 }
 
 .cartao-interno{
@@ -50,10 +49,8 @@ width: 100%;
 }
 
 .cartao:hover .cartao-interno{
-
     transform: rotateY(180deg);
 }
-
 
 .cartao-frente, .cartao-verso{
     position: absolute;
